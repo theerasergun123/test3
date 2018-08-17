@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS Checkpoint</title>
+</head>
+<body>
+    <div class="container">
+       <div class="cover"> <h1 id="txtEdit">Text Editor</h1> </div>
+        <div class="heading" >
+<div id="colors">
+    <select name="ChangeColors" id="colorChanger" onchange="colorIt()">
+<option value="Change Color">Change Color</option>
+<option value="red">Red</option>
+<option value="green">Green</option>
+<option value="brown">Brown</option>
+<option value="blue">Blue</option>
+
+
+
+    </select>
+
+
+
+
+</div>
+
+
+
+            <div class="fonts">  
+              <select onchange="getSelectValueTwo()" id="fonts">
+                <option>Fonts</option>
+                <option value="Arial">Arial</option>
+                <option value="Calibri">Calibri</option>
+                <option value="Constantia">Constantia</option>
+                <option value="Georgia">Georgia</option>
+              </select>
+            </div>
+               <div id="font-size">
+                 <select onchange="getSelectValue()" id="sizes">
+                     <option>Font Size</option>
+                    <option value="18">18</option>
+                    <option value="24">24</option>
+                    <option value="30">30</option>
+                    <option value="36">36</option>
+                    <option value="42">42</option>
+                   </select>
+                 </div>
+                 
+                 <div class="buttons">
+                     <button id="bold" onclick="boldit()">B</button>
+                     <button id="italic" onclick="italicit()">I</button>
+                     <button id="underlined" onclick="underit()">U</button>
+                     <button id="backtonormal" onclick="backbitch()">Normal Text</button>
+
+                     
+                 </div>
+
+            
+        </div>
+
+        <div class="text-to-edit">
+            <h1 class="title">Basic JavaScript</h1>
+            <p id="text">
+                    As with pubs and shoes, you know you’re reading a great book from the second you’re inside it.
+                    In the right hands, a novel’s beginning alone can make you feel like you’ve just fallen into a fast-flowing river, snatched away from reality and hurtled downhill. They range from hard-boiled pulp fiction to classics to, well, The Bible; the only thing they have in common is that they’re so good it’s impossible not to read on. Unfortunately, right now you can’t. But in the meantime, enjoy the best literary handshakes of all time…
+                    Let us know if we've left any off at the bottom.
+
+                    
+
+            </p>
+
+
+
+
+
+        </div>
+
+
+
+    </div>
+    </body>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
